@@ -7,4 +7,9 @@ A Star search algorithm using matplotlib
 5. After algorithm is over, path is colored blue
 6. Heuristic function used here Euclidean distance between two points
 
+Files:
+a_star_algo.py - Main file
+
+Spot.py - Spot class
+
 
