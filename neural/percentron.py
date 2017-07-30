@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import random as rnd
 import matplotlib.animation as animation
 
-NUM_POINTS = 442
+NUM_POINTS = 100
 LEANING_RATE=0.0001
 X_MAX=120
 
