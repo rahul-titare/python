@@ -23,8 +23,8 @@ def get_lowest():
 
 
 x_max, y_max = 800, 800
-row_boxes = 35
-col_boxes = 14
+row_boxes = 25
+col_boxes = 25
 percentage_blocked = .3
 sq_width = x_max / col_boxes
 sq_height = y_max / row_boxes
@@ -32,9 +32,9 @@ fig = plt.figure()
 plt.xlim(1, x_max)
 plt.ylim(1, y_max)
 spots = []
-start = (3, 7)
+start = (20, 1)
 end = (row_boxes - 1, col_boxes - 1)
-end = (27, 10)
+end = (1, 20)
 currentAxis = fig.add_subplot(1, 1, 1)
 
 # create rectangles
